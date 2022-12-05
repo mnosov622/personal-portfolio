@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+}
+
+.about__title {
+  max-width: 763px;
+  font-size: 92px;
+  line-height: 120%;
+  color: var(--primary-color);
+}
+
+.about__subtitle {
+  margin-top: 40px;
+  width: 628px;
+  font-size: 28px;
+  line-height: 180%;
+}
