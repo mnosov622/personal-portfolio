@@ -1,0 +1,21 @@
+.connect__text {
+  margin: 0 auto;
+  max-width: 509px;
+  font-size: 26px;
+  line-height: 180%;
+  color: var(--black-color);
+}
+
+.connect__icons {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.icon {
+  width: 50%;
+}

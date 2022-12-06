@@ -1,11 +1,13 @@
 import React from "react";
 import "./Button.scss";
 
-const Button = ({ text }) => {
+const Button = ({ text, icon }) => {
   return (
-    <a href="mailto:mnosov622@gmail.com">
-      <div className="btn">{text}</div>
-    </a>
+    <div className="button">
+      <a href="mailto:mnosov622@gmail.com">
+        <div className="btn">{text}</div>
+      </a>
+    </div>
   );
 };
 

@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.scss";
 import PersonalPhoto from "../../img/max 1.jpg";
 import Button from "../Button/Button";
+import EmailIcon from "../../img/icons/ic_outline-email.svg";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
           <img src={PersonalPhoto} alt="personal photo" />
         </div>
       </section>
-      <Button text="Contact me" />
+      <Button text="Contact me" icon={EmailIcon} />
     </>
   );
 };

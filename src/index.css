@@ -19,3 +19,11 @@ code {
   --white-color: #fff;
   --black-color: #000;
 }
+
+.title {
+  text-align: center;
+  margin-bottom: 44px;
+  font-weight: 400;
+  font-size: 62px;
+  color: #189ab4;
+}

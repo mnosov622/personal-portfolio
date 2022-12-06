@@ -1,0 +1,15 @@
+.stack {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.stack__inner {
+  margin-bottom: 50px;
+}
+
+.stack__icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
